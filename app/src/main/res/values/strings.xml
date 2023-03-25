@@ -5,4 +5,6 @@
     <string name="message">Message</string>
     <string name="official_milano_promotional_account_use_yesmilano_to_be_featured">Official Milano promotional account. 📸 Use #yesmilano to be featured.</string>
     <string name="linktr_ee_yesmilano">linktr.ee/YesMilano</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

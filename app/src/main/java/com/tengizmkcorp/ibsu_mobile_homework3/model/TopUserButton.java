@@ -1,5 +1,7 @@
 package com.tengizmkcorp.ibsu_mobile_homework3.model;
 
+import androidx.annotation.NonNull;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -53,6 +55,7 @@ public final class TopUserButton {
         return Objects.hash(title, blueBackground, bold, imageButton);
     }
 
+    @NonNull
     @Override
     public String toString() {
         return "TopUserButton{" +
