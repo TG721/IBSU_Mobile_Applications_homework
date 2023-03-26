@@ -59,10 +59,13 @@ public class StoryItemAdapter extends RecyclerView.Adapter<StoryItemAdapter.Stor
         void bind(StoryItem item) {
             Integer pos = getAdapterPosition();
             Glide.with(binding.storyContentIV)
-                    .load(R.drawable.quartieri)
+                    .load(item.getImage())
                     .circleCrop()
                     .into(binding.storyContentIV);
-            binding.titleTV.setText(item.getTitle());
+            String title = item.getTitle();
+            if(title.length()>7) {
+                binding.titleTV.setText(item.getTitle().substring(0,7)+"...");
+            } else binding.titleTV.setText(item.getTitle());
             if (!item.getAlreadyViewed())
                 binding.backgroundImage.setBorderColor(ContextCompat.getColor(mContext, R.color.blue));
         }

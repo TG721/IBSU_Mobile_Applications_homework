@@ -10,4 +10,23 @@
         android:name="com.tengizmkcorp.ibsu_mobile_homework3.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/postsFragment"
+        android:name="com.tengizmkcorp.ibsu_mobile_homework3.PostsFragment"
+        android:label="fragment_posts"
+        tools:layout="@layout/fragment_posts" />
+    <fragment
+        android:id="@+id/followersFragment"
+        android:name="com.tengizmkcorp.ibsu_mobile_homework3.FollowersFragment"
+        android:label="fragment_followers"
+        tools:layout="@layout/fragment_followers" >
+        <action
+            android:id="@+id/action_followersFragment_self"
+            app:destination="@id/followersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/followingFragment"
+        android:name="com.tengizmkcorp.ibsu_mobile_homework3.FollowingFragment"
+        android:label="fragment_following"
+        tools:layout="@layout/fragment_following" />
 </navigation>

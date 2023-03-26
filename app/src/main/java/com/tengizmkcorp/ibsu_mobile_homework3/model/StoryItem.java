@@ -1,5 +1,9 @@
 package com.tengizmkcorp.ibsu_mobile_homework3.model;
 
+import com.tengizmkcorp.ibsu_mobile_homework3.R;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class StoryItem {
@@ -46,4 +50,6 @@ public class StoryItem {
                 ", title='" + title + '\'' +
                 '}';
     }
+    public static List<StoryItem> storyList = new ArrayList<StoryItem>();
 }
+

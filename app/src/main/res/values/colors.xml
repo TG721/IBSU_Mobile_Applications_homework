@@ -10,6 +10,7 @@
     <color name="cyan">#0095F6</color>
     <color name="blue">#0063AE</color>
     <color name="light_grey">#EFEFEF</color>
+    <color name="grey">#808080</color>
+    <color name="red">#AE0000</color>
     <color name="link">#002F64</color>
-
 </resources>
