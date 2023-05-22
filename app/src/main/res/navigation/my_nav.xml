@@ -29,4 +29,24 @@
         android:name="com.tengizmkcorp.ibsu_mobile_homework3.FollowingFragment"
         android:label="fragment_following"
         tools:layout="@layout/fragment_following" />
+    <fragment
+        android:id="@+id/discoverFragment"
+        android:name="com.tengizmkcorp.ibsu_mobile_homework3.DiscoverFragment"
+        android:label="fragment_discover"
+        tools:layout="@layout/fragment_discover" />
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.tengizmkcorp.ibsu_mobile_homework3.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/sendFragment"
+        android:name="com.tengizmkcorp.ibsu_mobile_homework3.SendFragment"
+        android:label="fragment_send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/reelsFragment"
+        android:name="com.tengizmkcorp.ibsu_mobile_homework3.ReelsFragment"
+        android:label="fragment_reels"
+        tools:layout="@layout/fragment_reels" />
 </navigation>
